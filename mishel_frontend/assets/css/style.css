@@ -1,0 +1,2682 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+/* google fonts */
+
+/* Custom fonts */
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFProDisplay-BlackItalic.woff2") format("woff2"),
+    url("../fonts/SFProDisplay-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFProDisplay-Bold.woff2") format("woff2"),
+    url("../fonts/SFProDisplay-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFProDisplay-Regular.woff2") format("woff2"),
+    url("../fonts/SFProDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFProDisplay-Medium.woff2") format("woff2"),
+    url("../fonts/SFProDisplay-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFProDisplay-HeavyItalic.woff2") format("woff2"),
+    url("../fonts/SFProDisplay-HeavyItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFProDisplay-LightItalic.woff2") format("woff2"),
+    url("../fonts/SFProDisplay-LightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFProDisplay-SemiboldItalic.woff2") format("woff2"),
+    url("../fonts/SFProDisplay-SemiboldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFProDisplay-UltralightItalic.woff2") format("woff2"),
+    url("../fonts/SFProDisplay-UltralightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFProDisplay-ThinItalic.woff2") format("woff2"),
+    url("../fonts/SFProDisplay-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+strong,
+i,
+ol,
+ul,
+li,
+form,
+label,
+footer,
+header,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:focus,
+a:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+:root {
+  --primary-DarkBlue: #0f172a;
+  --secondary-blue: #2f3d40;
+  --primary-blue: #2f80ed;
+  --text-white: #fff;
+  --text-black: #201f22;
+  --text-secondBlack: #000;
+  --text-ash: #2d2f34;
+  --text-gray: #52525b;
+  --text-bg-gradient: linear-gradient(90deg,
+      rgba(0, 129, 65, 0.56) 0%,
+      rgba(0, 129, 65, 0) 98.64%);
+  --inter: "Inter", sans-serif;
+  --jakarta: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: "SF Pro Display";
+}
+
+main {
+  overflow-x: hidden;
+}
+
+/* common styles */
+.topHeaderText {
+  color: #b4d4ff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 33.579px;
+  font-family: "SF Pro Display";
+}
+
+.subHeading {
+  color: var(--primary-DarkBlue);
+  font-size: 50.368px;
+  font-weight: 500;
+  line-height: 57.564px;
+  font-family: "SF Pro Display";
+}
+
+.subHeading.white {
+  color: var(--text-white);
+}
+
+.MenuText {
+  color: var(--text-black);
+  font-size: 19.188px;
+  font-weight: 500;
+  line-height: 28.782px;
+  font-family: var(--inter);
+}
+
+.commonBtn {
+  padding: 15px 32px;
+  width: fit-content;
+  background: var(--primary-blue);
+  color: var(--text-white);
+  text-align: center;
+  font-family: "SF Pro Display";
+  font-size: 19.188px;
+  font-weight: 500;
+  line-height: 28.782px;
+  border-radius: 8px;
+}
+
+.Heading--Main--text {
+  color: var(--primary-DarkBlue);
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 64px;
+  font-family: "SF Pro Display";
+}
+
+.Heading--PeraText--text {
+  color: var(--primary-DarkBlue);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 33.579px;
+  font-family: "SF Pro Display";
+}
+
+.Heading--PeraText--text.bold {
+  font-weight: 500;
+}
+
+.searchBanner--text {
+  color: var(--primary-DarkBlue);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 33.579px;
+  font-family: "SF Pro Display";
+}
+
+.searchBanner--text.white {
+  color: var(--text-white);
+  font-size: 24px;
+}
+
+.counterPera {
+  color: var(--text-white);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.stepText {
+  color: var(--text-gray);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 43px;
+}
+
+.postJobFreeText {
+  color: var(--text-secondBlack);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.more--jobs--textss {
+  color: var(--text-ash);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.782px;
+}
+
+.moreJobsText {
+  color: #313133;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 28.782px;
+}
+
+.subTitless {
+  color: var(--text-gray);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.post--your--job--text {
+  color: #777;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.readyToHire--texts {
+  color: var(--primary-blue);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 28.782px;
+}
+
+.polular--fields--text {
+  color: #282b42;
+  font-family: var(--jakarta);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 127%;
+}
+
+.over--view--texts {
+  color: #595959;
+  font-family: var(--jakarta);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26.08px;
+}
+
+.over--view--texts--subtext {
+  color: #595959;
+  font-family: var(--jakarta);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.08px;
+}
+
+.over--view--texts--subtext.darkBlue {
+  color: var(--primary-DarkBlue);
+  font-size: 16px;
+}
+
+.readMoreText {
+  color: var(--primary-blue);
+  font-family: var(--jakarta);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 163%;
+}
+
+.popularLastText {
+  color: #595959;
+  font-family: var(--jakarta);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29.34px;
+}
+
+.growUpText--common {
+  color: var(--text-gray);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31.18px;
+}
+
+.growUpText--common.blue {
+  color: var(--primary-blue);
+}
+
+.professionalHeadingText {
+  color: var(--text-secondBlack);
+  font-size: 21.586px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.footer--review--text {
+  color: var(--blue-gray-700, #334155);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.footer--review--text.white {
+  color: var(--text-white);
+  font-size: 16px;
+}
+
+.footerHeader--white {
+  color: var(--text-white);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 21.586px;
+  letter-spacing: 1.199px;
+  text-transform: uppercase;
+}
+
+.postJob--ttitle--text {
+  color: var(--text-white);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 33.579px;
+}
+
+/* common styles */
+
+/* Common Navbae Part Start Hare */
+.topHeader {
+  padding: 5px 0;
+  background-color: var(--primary-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topHeader span {
+  color: var(--text-white);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 33.579px;
+}
+
+.navbar--main {
+  padding: 30px 0;
+  background: #f8f8f8;
+}
+
+.navbar--wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar--logo {
+  width: 143px;
+}
+
+.navbar--logo a img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.menu--btn--wrapper {
+  display: flex;
+  column-gap: 55px;
+}
+
+.navbar--menu {
+  display: flex;
+  column-gap: 84px;
+  align-items: center;
+}
+
+.navbar--menu ul {
+  display: flex;
+  column-gap: 32px;
+  align-items: center;
+}
+
+.sh--navbar--toggle {
+  display: none;
+}
+
+.nav-profile-logout {
+  display: none;
+}
+
+.notoficationIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.notoficationIcon svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.MenuText.iconss {
+  display: flex;
+  column-gap: 10px;
+  align-items: baseline;
+}
+
+.navbar--btn {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+
+
+.notification-main {
+  border: none;
+  background-color: transparent;
+}
+
+.notification-dopdown {
+  width: 400px;
+  padding: 32px 16px;
+  display: none;
+  position: absolute;
+  top: 100%;
+  /* Adjust as per your layout */
+  right: 300px;
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.notification-dopdown.active {
+  display: block;
+}
+
+.notification--heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.notification--heading--view--btn {
+  border: none;
+  background-color: transparent;
+}
+
+.notification--body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.notification--item {
+  border-radius: 4px;
+  background: #F8F8F8;
+  padding: 8px 24px;
+}
+
+.notification--item--title {
+  color: var(--State-Colors-info, #2F80ED);
+  font-family: "SF Pro Display";
+  font-size: 17.939px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17.939px;
+}
+
+/* General styles */
+
+
+/* Common Navbar Part End Hare */
+
+/* =============================================== Index Page Start Hare ================================== */
+
+/* Hero Section Strat Hare */
+.heroSection--wrapper {
+  background: #f8f8f8;
+  padding: 0px 0;
+}
+
+.banner--wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.banner--text {
+  max-width: 632px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.banner--search {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.search--bar--wrapper {
+  display: flex;
+  column-gap: 11px;
+  align-items: center;
+}
+
+.search--bar {
+  width: 374px;
+  border-radius: 5px;
+  border: 1px solid var(--primary-blue);
+  position: relative;
+}
+
+.search--bar input {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 10px;
+  font-size: 18px;
+  background-color: transparent;
+}
+
+.banner--picture {
+  position: relative;
+  top: 40px;
+}
+
+.banner--photo--main {
+  width: 479px;
+  height: 720px;
+}
+
+.rating {
+  position: absolute;
+  right: -80px;
+  top: 74px;
+  width: 195px;
+  height: 72px;
+}
+
+.rating img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.freameTwo {
+  position: absolute;
+  left: -215px;
+  bottom: 126px;
+  width: 288px;
+  height: 166px;
+}
+
+/* Hero Section End Hare */
+
+/* Rating Section Start Hare */
+.rating--wrapper {
+  padding: 165px 0;
+}
+
+.rating--main {
+  padding: 60px 180px;
+  background: var(--primary-blue);
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rsting--item {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+#counter {
+  color: var(--text-white);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 72px;
+}
+
+/* Rating Section End Hare */
+
+/* Right Professional Section Start Hare */
+.right--professional--wrapper {
+  padding: 0 0 160px 0;
+}
+
+.right--professional--heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right--professional--main--wrapper {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right--professional--item {
+  padding: 10px 74px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  text-align: center;
+}
+
+.right--professional--item--img--main {
+  height: 208px;
+  width: 208px;
+  border-radius: 50%;
+  background: #94bdff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right--professional--item--img {
+  width: 150.672px;
+  height: 150px;
+}
+
+.right--professional--item--img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.right--professional--btn--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.right--professional--btn--main {
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+}
+
+.star--icons {
+  height: 38px;
+  width: 38px;
+}
+
+/* Rating Professional Section End Hare */
+
+/* More Jobs Section Start Hare */
+.more--jobs--wrapper {
+  padding: 50px 0 190px 0;
+}
+
+.moreJobs--heading {
+  margin-bottom: 32px;
+}
+
+.more--jobs--main {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 24px;
+}
+
+.more--jobs--item {
+  padding: 16px;
+  border-radius: 6px;
+  border: 1px solid var(--primary-blue);
+  background: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.more--jobs--icon {
+  width: 32px;
+  height: 32px;
+}
+
+.more--jobs--icon svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* More Jobs Section End Hare */
+
+/* Discover The trusted solution Section Start Hare */
+
+.Discover--Trusted--heading {
+  max-width: 1265px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.Discover--Trusted--wrapper {
+  margin: 100px 0;
+  display: flex;
+  column-gap: 113px;
+}
+
+.Discover--Trusted--left--img {
+  width: 613.367px;
+  height: 527.254px;
+}
+
+.Discover--Trusted--left--img img {
+  width: 100%;
+  height: 100%;
+}
+
+.Discover--Trusted--right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.Discover--Trusted--item {
+  display: flex;
+  align-items: baseline;
+  gap: 40px;
+}
+
+.discover--trusted--svg {
+  min-width: 78.841px;
+  height: 78.841px;
+  background: var(--primary-blue);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discover--trusted--svg--icon {
+  min-width: 41.636px;
+  height: 41.636px;
+}
+
+.discover--trusted--svg--icon svg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.Discover--Trusted--Text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: start;
+}
+
+.readyTo--hire--wrapper {
+  margin-top: 100px;
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 42px;
+}
+
+/* Discover The trusted solution Section End Hare */
+
+/* Popular fields Section Start Hare */
+.popular--fields--wrapper {
+  padding: 100px 0;
+  background: #f8f8f8;
+}
+
+.populer--fields--header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popular--fields--item--wrapper {
+  margin-top: 76px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* Ensures items wrap to the next line if needed */
+  justify-content: space-between;
+  gap: 20px;
+  /* Optional: adds spacing between items */
+}
+
+.popular--fields--item {
+  padding: 16px 13px 16px;
+  border-radius: 15.143px;
+  border: 0.5px solid #c4cdd5;
+  background: var(--text-white);
+  width: 415px;
+}
+
+/* .popular--fields--item:nth-child(odd) {
+  /* margin-top: 63px; */
+/* margin-bottom: 63px; */
+/* } */
+
+*/ .popular--fields--img {
+  width: 389px;
+  height: 310px;
+  border-radius: 15px;
+}
+
+.popular--fields--img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.popular--text--wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.popular--fields--header {
+  margin-top: 10px;
+}
+
+.populer--fields--btn a {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+/* Popular fields Section End Hare */
+
+/* Looking for assignment Section Start Hare */
+.looking--for--Assignment--wrapper {
+  padding: 160px 0;
+}
+
+.looking--for--assignment--main {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+
+.looking--for--assignment--left {
+  min-width: 550px;
+  height: 640px;
+}
+
+.looking--for--assignment--left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.looking--for--assignment--right {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.looking--for--assignment--firstText--wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Looking for assignment Section End Hare */
+
+/* What Our Client Say Section Start Hare */
+.what--our--client--say--wrapper {
+  background: url(../images/clientBackGround.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 512px 0 78px 0;
+}
+
+.what--our--client--say--testmonial--wrapper {
+  margin-top: 65px;
+}
+
+.what--our--client--say--item {
+  padding: 24px 17px;
+  background-color: var(--text-white);
+  border-radius: 12px;
+  border: 1.199px solid #eae9f2;
+  background: var(--text-white);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  min-height: 280px;
+  max-height: auto;
+  flex-grow: 1;
+}
+
+.testmoial--text--img--wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testmoial--text--img--main {
+  display: flex;
+  align-items: center;
+  column-gap: 11px;
+}
+
+.testMonial--photos {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.testMonial--photos img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.tweeterIcon {
+  width: 25.021px;
+  height: 20.387px;
+}
+
+.tweeterIcon svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.post--Ajob--Btn {
+  margin-top: 73px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* What Our Client Say Section End Hare */
+
+/* Ready To get start Section Start Hare */
+.ready--to--get--start--wrapper {
+  padding: 125px 0;
+}
+
+.ready--to--get--main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ready--to--get--peraText {
+  max-width: 590px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.see--how--it--works--wrapper {
+  margin-top: 40px;
+}
+
+.no--credit--card--wrapper {
+  margin-top: 26px;
+}
+
+.no--credit--card--wrapper span {
+  color: var(--Colors-Blue-900, #2f3d40);
+  font-size: 16.789px;
+  font-weight: 400;
+  line-height: 26.383px;
+}
+
+/* Ready To get start Section End Hare */
+
+/* Footer Section Start Hare */
+.footer--upper--wrapper {
+  padding: 122px 0 0 0;
+  background: #f8f8f8;
+}
+
+.footer--upper--main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 98px;
+}
+
+.footer--logo {
+  width: 120px;
+
+}
+
+.footer--logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.footer--social--link--wrapper {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.footer--tweet--logo {
+  width: 34px;
+  height: 28px;
+}
+
+.footer--tweet--logo svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.trustpilot--wrapper {
+  display: flex;
+  gap: 15px;
+  margin-top: 55px;
+}
+
+.trust--pilot--main {
+  width: 123px;
+  height: 30.196px;
+}
+
+.trust--pilot--main svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.trustpilot--wrapper--main {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.trust--pilot--review {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.trust--pilot--star {
+  width: 15.958px;
+  height: 15.283px;
+}
+
+.trust--pilot--star svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pageLinks--wrapper {
+  display: flex;
+  gap: 60px;
+  align-items: start;
+}
+
+.pageLink--items--wrapper ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer--lower--main {
+  padding: 30px 0;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer--lower--main::after {
+  position: absolute;
+  content: "";
+  height: 1.5px;
+  width: 100%;
+  background: #e4e4e7;
+  left: 0;
+  top: 0;
+}
+
+.footer--lower--right ul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer--middle--upper--main--wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.footer--middle--wrapper {
+  padding: 90px 0;
+  background: var(--primary-blue);
+}
+
+.footer--middle--item--wrapper {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.footer--middle--item--first ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer--lower--wrapper {
+  padding: 44px 0;
+  background: #0261e1;
+}
+
+.footer--lower--main--two {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+.footer--lower--main--top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer--lower--main--bottom {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+/* Footer Section End Hare */
+
+/* =============================================== Index Page End Hare ================================== */
+
+/* =============================================== Contract Page Start Hare ================================== */
+
+/* Whats Your Job Section Start Hare */
+.whats--your--jobs--wrapper {
+  padding: 120px 0;
+  background: #f8f8f8;
+}
+
+.whats--your--jobs--item--wrapper {
+  margin-top: 100px;
+  display: flex;
+  gap: 36px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.whats--your--jobs--item {
+  padding: 22px 65px;
+  border-radius: 18.45px;
+  background: var(--text-white);
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.whats--your--jobs--icon {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background: #e6f2ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whats--your--jobs--icon--svg {
+  width: 50px;
+  height: 50px;
+}
+
+.whats--your--jobs--icon--svg svg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Whats Your Job Section End Hare */
+
+/* Post Your Job Section Start Hare */
+.post--your--job--wrapper {
+  padding: 34px 0;
+  background-color: var(--primary-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Post--your--job--wrapper--main {
+  display: flex;
+  gap: 32px;
+}
+
+.post--your--jobs--icon {
+  width: 40px;
+  height: 40px;
+}
+
+.post--your--jobs--icon svg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Post Your Job Section End Hare */
+
+/* =============================================== Contract Page End Hare ================================== */
+
+/* =============================================== Hire Multi Step Form Page Start Hare ================================== */
+.search--bar--wrapper.multiStep {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+}
+
+/* =============================================== Hire Multi Step Form Page End Hare ================================== */
+
+/* Setu's Css Start Here */
+
+/* Assignment Details page Css Start Here */
+
+/* Assignment-details First Section Start Here */
+
+.se--assignment-Details-Map-Section-Wrapper {
+  padding: 35px 0px;
+  margin-bottom: 60px;
+}
+
+.se--assignment-map-row {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-self: stretch;
+}
+
+.se--assignment-back {
+  color: #2d2f34;
+  font-family: "SF Pro Display";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.782px;
+  /* 179.887% */
+  display: flex;
+  gap: 2px;
+}
+
+.se--assignment--headerbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.se--header--layout {
+  display: flex;
+  width: 882.23px;
+  color: #313133;
+  font-family: "SF Pro Display";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64.362px;
+  /* 201.132% */
+}
+
+.se--font--layout {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.se--map--details {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  align-self: stretch;
+  flex-direction: row;
+}
+
+.se--map--information {
+  display: flex;
+  flex: 6;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.se--information {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.se--info--small-box {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.se--back--pera {
+  color: #2d2f34;
+  font-family: "SF Pro Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.782px;
+  /* 179.887% */
+  opacity: 0.7;
+}
+
+.se-map-interaction {
+  display: flex;
+  padding: 32px 48px;
+  flex-direction: column;
+  gap: 18px;
+  background: #f8f8f8;
+}
+
+.se-map-interaction-heading {
+  color: var(--Blue-Grey-900, #161c24);
+  font-family: "SF Pro Display";
+  font-size: 19.188px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28.782px;
+  /* 150% */
+}
+
+.se-map-inte-font-details {
+  display: flex;
+  gap: 2px;
+}
+
+.se--big--info--font {
+  color: var(--Blue-Grey-900, #161c24);
+  font-family: "SF Pro Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28.782px;
+  /* 119.925% */
+  opacity: 0.7;
+}
+
+.se-info-pera {
+  color: var(--Blue-Grey-700, #454f5b);
+  font-family: "SF Pro Display";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20.8px;
+  /* 173.333% */
+  opacity: 0.7;
+}
+
+.se-inte-box {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.se-all-information {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.se--second-info {
+  display: flex;
+  padding: 26px 48px;
+  align-self: stretch;
+  background: #f8f8f8;
+  color: var(--Blue-Grey-700, #454f5b);
+  font-family: "SF Pro Display";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* 200% */
+  gap: 5px;
+}
+
+.se--map-view {
+  flex: 4;
+}
+
+/* Assignment-details First Section End Here */
+
+/* Assignment-details Second Section start Here */
+
+.se--gallary--descriptions {
+  display: flex;
+  gap: 80px;
+  align-self: stretch;
+}
+
+.se--first-col {
+  display: flex;
+  width: 701px;
+  flex-direction: column;
+  align-items: start;
+  gap: 64px;
+}
+
+.se--gallaty-description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.se--des--header {
+  color: #313133;
+  font-family: "SF Pro Display";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64.362px;
+  /* 201.132% */
+}
+
+.se--des-pera {
+  color: #000;
+  font-family: "SF Pro Display";
+  text-align: justify;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.782px;
+  /* 179.887% */
+  opacity: 0.7;
+}
+
+.se--des-fontwith-details {
+  display: flex;
+  gap: 5px;
+  align-items: flex-start;
+}
+
+.se--des-fontwith-details2 {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.se--des-pera {
+  color: var(--Blue-Grey-800, #212b36);
+  font-family: "SF Pro Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.782px;
+  opacity: 0.7;
+}
+
+.se--search-icons {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.se--des-btn {
+  display: flex;
+  height: 59.962px;
+  padding: 19.188px 23.985px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 11.992px;
+  border-radius: 5.996px;
+  background: #2f80ed;
+  color: var(--3, #fff);
+  text-align: right;
+  font-family: Inter;
+  font-size: 19.188px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28.782px;
+  /* 150% */
+  border: none;
+  outline: none;
+}
+
+.se-second-col {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.se--attachment--images {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.se--image--section {
+  width: 159px;
+  height: 139px;
+  object-fit: cover;
+}
+
+.se--special-image {
+  position: relative;
+}
+
+.se--view--more {
+  display: flex;
+  width: 65px;
+  height: 65px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 48.077px;
+  background: rgba(41, 45, 50, 0.4);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+/* Assignment-details Second Section end Here */
+
+/* Assignment Details page Css End Here */
+
+/* assignment-details(Gallary) page css start here */
+
+/* assignment-details(Gallary)Second section css start here */
+
+.se--gallary--descriptions2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+  align-self: stretch;
+}
+
+.se--attachment--gallary {
+  display: flex;
+  align-items: flex-start;
+  gap: 28px;
+  align-self: stretch;
+  flex-wrap: wrap;
+  /* Allow items to wrap */
+}
+
+.se--image--section2 {
+  width: 422px;
+  width: 334px;
+  object-fit: conver;
+}
+
+/* assignment-details(Gallary)Second section css End here */
+
+/* assignment-details(Gallary) page css end here */
+
+/*general-jobs css start here
+
+/* banner section css start here */
+.se--General-Job-Wrapper1 {
+  margin-bottom: 100px;
+  background: #f8f8f8;
+  padding-bottom: 88px;
+  margin-top: 50px;
+}
+
+.se--General-Job-Wrapper2 {
+  margin-bottom: 100px;
+}
+
+.se--container-general {
+  padding: 0px 80px 80px;
+}
+
+.se--banner {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.se--Banner-font-laye {
+  color: var(--Colors-Blue-50, #f3f7f8);
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 71.955px;
+  /* 125% */
+  padding: 40px;
+  border-radius: 8px;
+  background: rgba(4, 15, 30, 0.6);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.se--Banner-font-laye h1 {
+  font-size: 57px;
+}
+
+.se--service-handyman--container {
+  display: flex;
+  gap: 148px;
+  align-items: start;
+}
+
+.se--handyman--header {
+  color: #2f3d40;
+  font-family: "Plus Jakarta Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  /* 177.778% */
+}
+
+.se--handyman--layout {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  flex: 5;
+}
+
+.se--handyman--pera {
+  color: #000;
+  font-family: "SF Pro Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.782px;
+  /* 179.887% */
+}
+
+.se--handyman-form-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+  flex: 5;
+  width: 100%;
+}
+
+.se--search--form {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.se--search--pera {
+  color: var(--Blue-Grey-900, #161c24);
+  font-family: "SF Pro Display";
+  font-size: 19.188px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28.782px;
+  /* 150% */
+}
+
+.se--search-container {
+  display: flex;
+  padding: 8px 19px 8px 18px;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 5.996px;
+  border: 1px solid var(--State-Colors-info, #2f80ed);
+}
+
+.se--search--input--handyman {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 485.516px;
+  height: 22.25px;
+}
+
+.se--search-container input::placeholder {
+  color: var(--Blue-Grey-900, #161c24);
+  font-family: "SF Pro Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.782px;
+  /* 179.887% */
+}
+
+.se--popular-services {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 16px;
+}
+
+.se--services--layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 24px;
+}
+
+.se--service-font {
+  color: #777;
+  text-align: center;
+  font-family: "SF Pro Display";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  border-radius: 18.45px;
+  background: #fff;
+  padding: 30px 37px;
+}
+
+.se--service-font:nth-child(3) {
+  grid-column: span 3;
+  justify-self: start;
+}
+
+/* banner section css end here */
+
+/* higest rated container box css start here */
+.se--highest-rated-container-box {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.se--box-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.se--highest--rated--box--card {
+  display: flex;
+
+  padding: 46px 28px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 58px;
+  border-radius: 8px;
+  border: 1.121px solid #e3e3e3;
+  background: #fff;
+  box-shadow: 5px 11px 45.7px 0px rgba(0, 77, 63, 0.06);
+}
+
+.se--card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.se--card-avatar--details {
+  display: flex;
+  padding: 16px 24px;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 4px;
+  background: #f8f8f8;
+}
+
+.se--card-avatar {
+  display: flex;
+  gap: 5px;
+}
+
+.se--card-avatar--name {
+  color: var(--State-Colors-info, #2f80ed);
+  font-family: "SF Pro Display";
+  font-size: 17.939px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17.939px;
+  margin-bottom: 3px;
+}
+
+.se--card-avatar--reviews-total {
+  color: var(--Blue-Grey-600, #637381);
+  font-family: "SF Pro Display";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  /* 128.571% */
+}
+
+.se--card-info {
+  color: #262627;
+  font-family: "SF Pro Display";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.782px;
+  /* 205.586% */
+  opacity: 0.7;
+}
+
+.se--card-review-layout {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  gap: 8px;
+  align-self: stretch;
+  background: #f8f8f8;
+}
+
+.se--card-review {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.se--card--review-name {
+  color: var(--Blue-Grey-900, #161c24);
+  font-family: "SF Pro Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28.782px;
+  /* 179.887% */
+}
+
+.se--card-review--date {
+  color: var(--Blue-Grey-900, #161c24);
+  font-family: "SF Pro Display";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.782px;
+  /* 239.85% */
+}
+
+.se--card--review--pera {
+  color: #262627;
+  font-family: "SF Pro Display";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.782px;
+  /* 205.586% */
+  opacity: 0.7;
+}
+
+.se--card--highest--rated--btn {
+  display: flex;
+  height: 60px;
+  padding: 19.188px 23.985px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 11.992px;
+  align-self: stretch;
+  border-radius: 5.996px;
+  background: #2f80ed;
+  color: var(--3, #fff);
+  text-align: right;
+  font-family: Inter;
+  font-size: 19.188px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28.782px;
+  /* 150% */
+  border: none;
+  outline: none;
+}
+
+.se--card--highest--rated--btn:hover {
+  opacity: 0.9;
+}
+
+/* higest rated container box css end here */
+
+/* handyman info css start here */
+
+.se--handyman-info-section {
+  display: flex;
+
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 120px;
+}
+
+.se--handyman-info-header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.se--handyman--pera {
+  color: #313133;
+  font-family: "SF Pro Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.782px;
+}
+
+.se--handyman-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+
+.se--jobs--box {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 28px;
+  flex: 1 0 0;
+  flex-wrap: wrap;
+}
+
+.se--job--box {
+  display: flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 5.996px;
+  border: 1px solid var(--State-Colors-info, #2f80ed);
+  background: #f8f8f8;
+}
+
+.se--job--box-content {
+  display: flex;
+  min-width: 92px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.se--job-title {
+  color: #2d2f34;
+  font-family: "SF Pro Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.782px;
+  /* 179.887% */
+  opacity: 0.7;
+}
+
+.se--handyman--information {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.se--handyman--pera--head {
+  color: #313133;
+  font-family: "SF Pro Display";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.782px;
+}
+
+/* handyman info css end here */
+
+/*general-jobs css endhere
+
+
+/* get in contact page css start here */
+
+.se--get-in-contact-wrapper {
+  margin: 30px 0px;
+}
+
+.se--get-in-contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.se--get-in-contact-back {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.se--get-back--pera {
+  color: var(--Blue-Grey-700, #454f5b);
+  font-family: "SF Pro Display";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 33.579px;
+  /* 83.947% */
+}
+
+.se--offered--layout {
+  display: flex;
+  align-items: start;
+  gap: 30px;
+}
+
+.se--handyman-card {
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  background: #f8f8f8;
+}
+
+.se--card-information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  align-self: stretch;
+}
+
+.se--card-handyman-avt {
+  display: flex;
+
+  align-items: flex-start;
+  gap: 40.915px;
+}
+
+.se--handyman-name {
+  color: var(--State-Colors-info, #2f80ed);
+  font-family: "SF Pro Display";
+  font-size: 45.875px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 45.875px;
+  /* 100% */
+  margin-bottom: 10px;
+}
+
+.se--handyman-rating {
+  color: var(--Blue-Grey-600, #637381);
+  font-family: "SF Pro Display";
+  font-size: 35.801px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46.03px;
+  /* 128.571% */
+}
+
+.se--card-get-info {
+  display: flex;
+
+  height: 106.124px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.se--card-get-info1 {
+  color: #313133;
+  font-family: "SF Pro Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  /* 166.667% */
+  margin-bottom: 10px;
+}
+
+.se--card-get-info2 {
+  color: #313133;
+  font-family: "SF Pro Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  /* 166.667% */
+  color: #000;
+  font-family: "SF Pro Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.782px;
+  /* 179.887% */
+}
+
+.se--get-services-all {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.se--service-box-layout {
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 5.996px;
+  border: 1px solid var(--State-Colors-info, #2f80ed);
+}
+
+.se--service-font2 {
+  color: #262627;
+  font-family: "SF Pro Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.782px;
+  /* 179.887% */
+  opacity: 0.7;
+}
+
+/* get in contact page css end here */
+
+/* About us page css start here */
+
+/* Culture section css start here */
+.se-culture-wrapper {
+  margin-bottom: 100px;
+  padding: 0px;
+}
+
+.se-culture-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+.se--culture-col {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.se--culture-history-list {
+  list-style-type: disc;
+  margin: 0;
+  padding-left: 20px;
+  margin-left: 5px;
+}
+
+.se--culture-history-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* Culture section css end here */
+
+/* about use page css end here */
+
+/* become our partner css start here */
+.se--full--wrapper {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  background: #f8f8f8;
+}
+
+.se--become-partner-header-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 58px 0px;
+}
+
+.se--become-partner-header-layout p {
+  color: #000;
+  font-family: "SF Pro Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.782px;
+  /* 179.887% */
+}
+
+.se--wrapper {
+  margin-bottom: 100px;
+  padding: 0px;
+}
+
+.se--partner-information {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.se--partner-row {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: start;
+}
+
+.se--parter-info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.se--partner_btn {
+  display: flex;
+  width: 224px;
+  height: 60px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 11.992px;
+  border-radius: 5.996px;
+  background: #2f80ed;
+  outline: none;
+  border: none;
+  color: var(--3, #fff);
+  text-align: right;
+  font-family: Inter;
+  font-size: 19.188px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28.782px;
+  /* 150% */
+}
+
+.se--partner_btn:hover {
+  opacity: 0.8;
+}
+
+.se--bold-pera {
+  color: #313133;
+  font-family: "SF Pro Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.782px;
+}
+
+/* become our partner css end here */
+
+/* how it works css start here */
+.se--banner2 {
+  position: relative;
+}
+
+.se--banner--information {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 49px;
+}
+
+.se--banner-font-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.se--banner-font-layout h1 {
+  color: #fff;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.se--banner-font-layout p {
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.se--banner-search--layout {
+  display: flex;
+  gap: 11px;
+}
+
+.se--banner-search--layout button {
+  display: flex;
+  width: 224px;
+  height: 60px;
+  padding: 20px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 6px;
+  background: #2f80ed;
+  outline: none;
+  border: none;
+  color: var(--3, #fff);
+  text-align: right;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29px;
+  /* 150% */
+}
+
+.se--banner--search {
+  display: flex;
+  width: 778px;
+  height: 60px;
+  padding: 28px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.se--banner--search input {
+  width: 90%;
+  color: var(--Blue-Grey-500, #212224);
+  font-family: "SF Pro Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: 28.782px;  */
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.se--wrok-information {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+
+}
+
+.se--choose-plan-section {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
+  align-self: stretch;
+}
+
+.se--choose-plan-box {
+  display: flex;
+  padding: 38px 34px 31px 34px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1.121px solid #E3E3E3;
+  background: #FFF;
+  box-shadow: 5px 11px 45.7px 0px rgba(0, 77, 63, 0.06);
+}
+
+.se--choose-plan-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 34px;
+}
+
+.se--plan--info-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 11px;
+  align-self: stretch;
+}
+
+.se--plan--info-2 {
+  display: flex;
+  height: 288.151px;
+  padding: 23px 0px 169px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 17.94px;
+  align-self: stretch;
+}
+
+.se--choose-plan-btn {
+  display: flex;
+  padding: 25px 120px 25px 120px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border: none;
+  outline: none;
+  border-radius: 68px;
+  border: 1px solid var(--State-Colors-info, #2F80ED);
+  color: var(--State-Colors-info, #2F80ED);
+  text-align: center;
+  font-family: "SF Pro Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: capitalize;
+}
+
+.se--plan--info-1 P {
+  color: #56595C;
+  font-family: "SF Pro Display";
+  font-size: 20.182px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+}
+
+.se--plan--dolar--info {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.se--plan--dolar--info h1 {
+  color: #0C121D;
+  font-family: "SF Pro Display";
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 69px;
+  /* 119.231% */
+  letter-spacing: -0.437px;
+  text-transform: uppercase;
+}
+
+.se--plan--dolar--info p {
+  display: flex;
+  color: #0C121D;
+  font-family: "SF Pro Display";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  /* 100% */
+  padding: 5px 6px 6px 13px;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 11.212px;
+  background: rgba(12, 18, 29, 0.10);
+}
+
+.se--plan--info-1 span {
+  color: #0C121D;
+  font-family: Urbanist;
+  font-size: 22.424px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35.879px;
+  /* 160% */
+
+}
+
+.se--plan-border {
+  height: 1.121px;
+  align-self: stretch;
+  background: rgba(86, 89, 92, 0.30);
+}
+
+.se--plan--service {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 5px;
+
+}
+
+.se--plan--service p {
+  color: #0C121D;
+  font-family: "SF Pro Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29.152px;
+  /* 162.5% */
+  max-width: 343px;
+  margin-top: -3px;
+
+}
+
+.se--plan--info-1 .se--plan-blue {
+  color: var(--State-Colors-info, #2F80ED);
+}
+
+.se--plan--dolar--info .se--dolar-blue {
+  color: var(--State-Colors-info, #2F80ED);
+}
+
+.se--plan--dolar--info .se--dolar-save-blue {
+  background: #2F80ED;
+  color: #fff;
+}
+
+.se--plan--info-1 .se--plan-month {
+  color: var(--State-Colors-info, #2F80ED);
+
+}
+
+.border-blue {
+  background: #2F80ED;
+
+}
+
+.se--plan--service .se--plan--service-blue {
+  color: var(--State-Colors-info, #2F80ED);
+
+}
+
+.se--choose-plan-btn-blue {
+  background: var(--State-Colors-info, #2F80ED);
+  color: #F8F8F8;
+}
+
+.se--choose-plan-box-blue {
+  border-radius: 8px;
+  border: 4px solid var(--State-Colors-info, #2F80ED);
+}
+
+.se--wrapper-color-padding {
+  background: #F8F8F8;
+  padding-bottom: 100px;
+}
+
+.se--wrapper-margin-bottom {
+  margin-bottom: 100px;
+}
+
+.se--profession--job--info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 56px;
+  align-self: stretch;
+}
+
+.se--list--decoration {
+  text-decoration: none;
+}
+
+.se--padding--need {
+  padding: 0px;
+}
+
+/* how it works css end here */
+
+/* Setu's Css End Here */
+
+
+.se--get-in-contact-back--link {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.se--banner--img img {
+  object-fit: cover;
+}
+
+
+.search--bar--list {
+  width: 100%;
+  display: none;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  margin: 0;
+  padding: 15px 0;
+  list-style: none;
+  position: absolute;
+  background: #eae9f2;
+}
+
+.search--bar--list.show {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.search--bar--list li {
+  padding: 10px;
+  background-color: #f4f4f4;
+  margin: 2px 0;
+  cursor: pointer;
+}
+
+.search--bar--list li:hover {
+  background-color: #ddd;
+}
+
+.navbar--logo--img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

@@ -1,0 +1,255 @@
+[
+                    'type' => 'Home',
+                    'name' => 'Mortgage/Rent',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' => "This includes your monthly rent or mortgage loan repayment amount. For mortgage payments include Principal and Interest, but put Property Tax below.",
+                ],
+                [
+                    'type' => 'Home',
+                    'name' => 'Property Taxes',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' => "Annual property taxes divided by 12 or based on monthly bills."
+                ],
+                [
+                    'type' => 'Home',
+                    'name' => 'Insurance - Home/Flood/Tenant',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' => "This includes home insurance, flood insurance, and tenant insurance premiums."
+                ],
+                [
+                    'type' => 'Home',
+                    'name' => 'Utilities - Electric/Gas/Water',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' => "Track your utility bills for electric, gas, and water usage."
+                ],
+                [
+                    'type' => 'Home',
+                    'name' => 'Communications - Telephone/Internet',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' => "Includes your landline and internet subscriptions."
+                ],
+                [
+                    'type' => 'Home',
+                    'name' => 'Home Repairs/Improvement',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' => "Expenses related to home maintenance and home improvement projects."
+                ],
+                [
+                    'type' => 'Home',
+                    'name' => 'Maintenance - Winter/Spring',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' => "Costs for maintaining your property during specific seasons."
+                ],
+                [
+                    'type' => 'Home',
+                    'name' => 'Lawncare/Garden',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' => "This covers the costs of landscaping, lawn mowing, and gardening services."
+                ],
+                [
+                    'type' => 'Home',
+                    'name' => 'Alarm',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' => "Payments for home security systems or alarm monitoring."
+                ],
+                [
+                    'type' => 'Home',
+                    'name' => 'Condo/Neighborhood Fees',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' => "Monthly or annual fees for shared community amenities or services."
+                ],
+                [
+                    'type' => 'Home',
+                    'name' => 'Housekeeping',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' =>  "Regular cleaning services for your home."
+                ],
+                [
+                    'type' => 'Home',
+                    'name' => 'Furniture/Supplies/Misc.',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' => "Include average annual purchases for furniture, decor, or home supplies."
+                ],
+                [
+                    'type' => 'Home',
+                    'name' => 'Other',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' => "Any other home expenses not listed here."
+                ],
+                [
+                    'type' => 'Transport',
+                    'name' => 'Auto Payment(s)',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' =>  "Payments for a car loan or lease agreement"
+                ],
+                [
+                    'type' => 'Transport',
+                    'name' => 'Auto Maintenance',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' => "Any vehicle maintenance or repair expenses."
+                ],
+                [
+                    'type' => 'Transport',
+                    'name' => 'Auto Excise Tax',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' => "Annual or quarterly tax on your vehicle based on its value."
+                ],
+                [
+                    'type' => 'Transport',
+                    'name' => 'Auto Registration',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' => "Annual registration costs for your vehicle."
+                ],
+                [
+                    'type' => 'Transport',
+                    'name' => 'Auto Insurance',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' => "Monthly or annual costs for insuring your car."
+                ],
+                [
+                    'type' => 'Transport',
+                    'name' => 'Parking',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' => "Include parking fees or charges for parking."
+                ],
+                [
+                    'type' => 'Transport',
+                    'name' => 'Gas',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' =>  "Track monthly fuel costs for your car."
+                ],
+                [
+                    'type' => 'Transport',
+                    'name' => 'Bus/Rail Card Pass',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' =>  "Regular or occasional public transit pass charges."
+                [
+                    'type' => 'Transport',
+                    'name' => 'Uber/Taxis',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' => "Track Uber, Lyft, or taxi fares for transportation." 
+                ],
+                [
+                    'type' => 'Transport',
+                    'name' => 'Other',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' => "Any other transportation costs not listed."
+                ],
+                [
+                    'type' => 'Basic Living',
+                    'name' => 'Groceries',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' => "Costs for food and groceries bought for home consumption."
+                ],
+                [
+                    'type' => 'Basic Living',
+                    'name' => 'Cell Phone',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' => "Charges for mobile phone service."
+                ],
+                [
+                    'type' => 'Basic Living',
+                    'name' => 'Personal Care Items/Toiletries',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' =>  "Items like shampoo, toothpaste, and other personal essentials."
+                ],
+                [
+                    'type' => 'Basic Living',
+                    'name' => 'Clothing',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' => "Purchases of clothing and accessories."
+                ],
+                [
+                    'type' => 'Basic Living',
+                    'name' => 'Hairdresser/Nails',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' => "Costs for haircuts, styling, and nail care."
+                ],
+                [
+                    'type' => 'Basic Living',
+                    'name' => 'Household Supplies',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' => "Expenses for cleaning supplies, home maintenance items."
+                ],
+                [
+                    'type' => 'Basic Living',
+                    'name' => 'Dry Cleaners/Laundry',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' => "Track costs for dry cleaning or laundry services."
+                ],
+                [
+                    'type' => 'Basic Living',
+                    'name' => 'Subscriptions - News, Music, TV, Apps, etc.',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' =>  "Track costs for entertainment and media subscriptions like Netflix, Spotify, Phone Apps."
+                ],
+                [
+                    'type' => 'Basic Living',
+                    'name' => 'Other',
+                    'monthly_amount' => 0,
+                    'annual_amount' => 0,
+                    'percentage_total' => 0,
+                    'info' => "Any miscellaneous expenses related to daily living."
+                ],

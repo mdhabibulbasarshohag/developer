@@ -1,1 +1,42 @@
 @import "tailwindcss";
+
+@theme {
+  --color-primary: #ff0000;
+  --color-secondary: #00ff00;
+  --color-tertiary: #0000ff;
+  --font-primary: "Arial", sans-serif;
+  --font-secondary: "Times New Roman", serif;
+  --font-size-small: 12px;
+  --font-size-medium: 16px;
+  --font-size-large: 24px;
+  --background-color: #ffffff;
+  --border-radius: 5px;
+  --box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  --transition-duration: 0.3s;
+}
+
+@utility data {
+  .bg-primary {
+    background-color: var(--color-primary);
+  }
+
+  .bg-secondary {
+    background-color: var(--color-secondary);
+  }
+
+  .bg-tertiary {
+    background-color: var(--color-tertiary);
+  }
+
+  .text-primary {
+    color: var(--color-primary);
+  }
+
+  .text-secondary {
+    color: var(--color-secondary);
+  }
+
+  .text-tertiary {
+    color: var(--color-tertiary);
+  }
+}

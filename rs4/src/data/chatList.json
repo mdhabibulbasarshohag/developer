@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "username": "john_doe",
+        "img": "https://randomuser.me/api/portraits/men/1.jpg",
+        "lastMessage": "Hey! How are you?",
+        "timestamp": "10:30 AM",
+        "online": true
+    },
+    {
+        "id": 2,
+        "name": "Alice Smith",
+        "username": "alice_smith",
+        "img": "https://randomuser.me/api/portraits/women/2.jpg",
+        "lastMessage": "See you tomorrow!",
+        "timestamp": "9:15 AM",
+        "online": false
+    },
+    {
+        "id": 3,
+        "name": "Michael Brown",
+        "username": "michael_b",
+        "img": "https://randomuser.me/api/portraits/men/3.jpg",
+        "lastMessage": "Let's catch up later.",
+        "timestamp": "Yesterday",
+        "online": true
+    },
+    {
+        "id": 4,
+        "name": "Emma Johnson",
+        "username": "emma_j",
+        "img": "https://randomuser.me/api/portraits/women/4.jpg",
+        "lastMessage": "Had a great time today!",
+        "timestamp": "2 days ago",
+        "online": false
+    },
+    {
+        "id": 5,
+        "name": "David Wilson",
+        "username": "david_w",
+        "img": "https://randomuser.me/api/portraits/men/5.jpg",
+        "lastMessage": "I'll send you the files soon.",
+        "timestamp": "5:45 PM",
+        "online": false
+    }
+]

@@ -1,0 +1,2440 @@
+/* professional reg banner start */
+
+.sh--professional--reg--from {
+    display: flex;
+    width: 534px;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+    background: #2F80ED;
+    padding: 32px 16px;
+
+}
+
+.sh--professional--reg--wrapper h1 {
+    color: #161C24;
+    font-family: "SF Pro Display";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 16px;
+    width: 450px;
+}
+
+
+.sh--professional--reg--wrapper--from {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px
+}
+
+.sh--professional--reg--wrapper--from label {
+    color: #A6A6A6;
+    font-size: 19.188px;
+    font-weight: 500;
+}
+
+.sh--professional--reg--from--input {
+    border-radius: 5.996px;
+    border: 2px solid #2F80ED;
+    width: 100%;
+    padding: 16px;
+    color: #A6A6A6;
+    font-family: "SF Pro Display";
+    font-size: 19.188px;
+    font-weight: 500;
+}
+
+.sh--professional--reg--from--input--select {
+    border: 2px solid #2F80ED;
+    font-size: 19.188px;
+    font-weight: 500;
+    padding: 16px 5px 10px 0;
+    border-radius: 5.996px;
+    color: #A6A6A6;
+}
+
+.sh--professional--reg--from--input--select .sh--from--input--select {
+    border: none;
+    font-size: 19.188px;
+    font-weight: 500;
+    color: #A6A6A6;
+}
+
+
+.sh--reg--from--input input {
+    border: none;
+    outline: none;
+}
+
+.sh--reg--from--input input:first-child {
+    border-right: 2px solid #2F80ED;
+    width: 73.157px;
+    padding-right: 16px;
+}
+
+.sh--reg--from--input input:last-child {
+    padding-left: 16px;
+}
+
+
+.sh--professional--reg--form--submit--btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+}
+
+.sh--professional--reg--form--submit--btn .form--submit--btn {
+    width: 100%;
+    border: none;
+    color: #2F80ED;
+    font-family: Inter;
+    font-size: 19.188px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 19px 0;
+    border-radius: 8px;
+    background: #FFF;
+    text-align: center;
+}
+
+/* professional reg banner end */
+
+/*  Packages section start */
+.sh--Packages--price {
+    padding: 200px 0;
+}
+
+.sh--packages--price--body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.sh--packages--price--title {
+    width: 977.788px;
+}
+
+.sh--packages--price--title h1 {
+    color: #2F3D40;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 57.564px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.sh--packages--price--title p {
+    color: #2F3D40;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 21.586px;
+    font-weight: 400;
+    margin-bottom: 36px;
+}
+
+
+/*  Packages section end */
+
+
+
+/* Online help desk Page Start  */
+
+
+/* sh skilled worker start */
+
+.sh--skilled--worker--section {
+    margin-bottom: 100px;
+}
+
+.sh--skilled--worker--section--btn {
+    font-family: "Plus Jakarta Sans";
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    color: #2F3D40;
+    background-color: transparent;
+}
+
+.sh--skilled--worker--section--btn.active {
+    background-color: #F8F8F8;
+    color: #037FFF !important;
+}
+
+.sh--skilled--worker--section--accordion {
+    margin: 40PX 0 0 0;
+}
+
+.sh--skilled--worker--section--accordion--item {
+    margin: 24px 0;
+
+}
+
+.sh--skilled--worker--section--accordion--item--btn {
+    background-color: #F8F8F8 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Online help desk Page end  */
+
+
+
+
+
+
+
+
+
+
+/* Assignments page start */
+
+.sh--assignments--section {
+    margin: 100px;
+}
+
+.sh--assignments--section--title {
+    color: #313133;
+    font-family: "SF Pro Display";
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+
+.sh--assignments--section--input--name h4 {
+    color: #161C24;
+    font-family: "SF Pro Display";
+    font-size: 19.188px;
+    font-weight: 500;
+    margin-bottom: 11px;
+}
+
+.sh--assignments--section--input--search--bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.sh--assignments--section--input--search {
+    width: 100%;
+    position: relative;
+}
+
+.sh--assignments--section--input--search .sh--input--search {
+    border-radius: 5.996px;
+    border: 1px solid #2F80ED;
+    color: #161C24;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    padding: 18px;
+}
+
+.sh--assignments--section--input--search .sh--input--search--btn {
+    border: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 19px;
+    background-color: transparent;
+}
+
+
+.btn--search--svg {
+    width: 42px;
+    height: 41px;
+}
+
+.search--svg {
+    width: 100%;
+    height: 100%;
+}
+
+/* filter start */
+
+
+
+.sh--assignments--filter--btn {
+    padding: 19px 23px;
+    border-radius: 5.996px;
+    border: 1px solid #2F80ED;
+    margin-left: 11px;
+    background-color: #FFF;
+}
+
+.sh--assignments--filter--body {
+    border: 2px solid #2F80ED !important;
+    border-radius: 8px !important;
+    padding: 45px !important;
+    background-color: #FFF;
+}
+
+
+.sh--assignments--filter--form--header {
+    border-bottom: 2px solid #D9D9D9;
+    padding: 10px;
+}
+
+
+.sh--assignments--filter--form--switch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 !important;
+    margin: 0 0 14px 0 !important;
+}
+
+
+
+
+.sh--assignments--filter--form--location h4 {
+    color: #313133;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 22px 0;
+}
+
+
+.sh--assignments--filter--form--location-distance {
+    border-bottom: 2px solid #D9D9D9;
+    padding: 10px;
+}
+
+.sh--assignments--filter--form--distance-km {
+    margin: 150px 0 33px 0;
+}
+
+
+
+
+/* input range start */
+
+.slider-container {
+    position: relative;
+    width: 100%;
+}
+
+#slider {
+    -webkit-appearance: none;
+    width: 100%;
+    margin: 20px 0;
+    background: #ddd;
+    height: 6px;
+    border-radius: 5px;
+    outline: none;
+}
+
+#slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #007bff;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #007bff;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+    position: absolute;
+    top: -40px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+
+/* input range end */
+
+
+
+
+.sh--assignments--filter--form--Comments h4 {
+    color: #313133;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+
+    margin-bottom: 14px;
+}
+
+
+.sh--assignments--filter--services--text--row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.sh--assignments--filter--services--text--row h4 {
+    color: #313133;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.sh--assignments--filter--services--text--row button {
+    color: #313133;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+    background-color: transparent;
+    margin: 24px 0 14px 0;
+}
+
+
+.sh--assignments--filter--form--submit--btn {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    gap: 20px !important;
+    margin-top: 50px;
+    flex-wrap: nowrap;
+}
+
+.sh--assignments--filter--form--submit--btn button {
+    color: #2F80ED;
+    font-family: Inter;
+    font-size: 19.188px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 19px 23px;
+    border-radius: 5.996px;
+    border: 2px solid var(--State-Colors-info, #2F80ED);
+    background-color: #FFF;
+    width: 100%;
+    transition: background-color 0.2s ease-in;
+}
+
+.sh--assignments--filter--form--submit--btn button:hover {
+    background-color: #037FFF;
+    color: #F8F8F8;
+}
+
+/* filter end */
+
+.sh--assignments--Search--works--row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 11px;
+}
+
+.sh--assignments--input--Search--works--col {
+    border-radius: 5.996px;
+    border: 1px solid var(--State-Colors-info, #2F80ED);
+    background: #F8F8F8;
+    padding: 16px;
+    margin-bottom: 40px;
+}
+
+.sh--assignments--input--Search--works--title h4 {
+    color: #161C24;
+    font-family: "SF Pro Display";
+    font-size: 19.188px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+.sh--assignments--input--Search--works--text {
+    display: flex;
+    justify-content: left;
+}
+
+.sh--assignments--input--Search--works--text p {
+    color: #2D2F34;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.782px;
+    margin-left: 6px;
+    margin-bottom: 14px;
+}
+
+.sh--assignments--view--more--btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sh--assignments--view--more--btn button {
+    width: 445px;
+    text-align: center;
+    padding: 19.188px 23.985px;
+    color: #FFf;
+    font-family: Inter;
+    font-size: 19.188px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 5.996px;
+    background: #2F80ED;
+    border: none;
+}
+
+
+
+
+
+/* Assignments page end */
+
+
+
+
+/* Find-professionals-section */
+
+
+
+
+.sh--find-professionals-section {
+    margin-bottom: 100px;
+}
+
+
+.sh--find--professionals--select--row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+}
+
+
+.sh--find--professionals--select--input {
+    display: none;
+}
+
+.sh--find--professionals--select--input:checked+.sh--find--professionals--select--label {
+    background-color: #2F80ED;
+    color: #fff;
+}
+
+.sh--find--professionals--select--label {
+    width: 100%;
+    cursor: pointer;
+    color: #2D2F34;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 24px;
+    border-radius: 5.996px;
+    border: 1px solid var(--State-Colors-info, #2F80ED);
+    background: #FFF;
+}
+
+.sh--find--professionals--select--label a {
+    color: #2D2F34;
+}
+
+/* Find-professionals-section end */
+
+
+
+/* profile section start */
+
+.sh--profile--section {
+    padding: 50px 0;
+    background: #F8F8F8;
+}
+
+
+
+.sh--profile--title {
+    margin-bottom: 50px;
+}
+
+.sh--profile--title h1 {
+    color: #313133;
+    font-family: "SF Pro Display";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+
+
+.sh--profile--body {
+    display: flex;
+    justify-content: start;
+}
+
+/* sh--profile--body--left--start */
+
+.sh--profile--body--left {
+    margin-right: 32px;
+    width: 30%;
+    max-height: 700px;
+    overflow-y: scroll;
+}
+
+.sh--profile--body--left::-webkit-scrollbar {
+    width: 12px;
+}
+
+.sh--profile--body--left::-webkit-scrollbar-track {
+    background: #f0f0f0;
+    border-radius: 10px;
+}
+
+.sh--profile--body--left::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+    border: 3px solid #f0f0f0;
+}
+
+.sh--profile--body--left::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.sh--profile--pic--body {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0 0 32px 0;
+}
+
+
+
+
+
+.sh--profile-pic {
+    margin-right: 20px;
+    position: relative;
+    border-radius: 50%;
+    border: 1.341px solid #BEBEC6;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sh--profile--pic--overlay {
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+    width: 32.181px;
+    height: 32.181px;
+    border-radius: 50%;
+    border: 1px solid var(--Blue-Grey-400, #C4CDD5);
+    background: #EEF0F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sh--profile--pic--overlay button {
+    border: none;
+    background: transparent;
+}
+
+
+
+
+.sh--profile--pic--title h4 {
+    color: #313133;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.sh--profile--pic--title a {
+    color: #262627;
+    font-family: "SF Pro Display";
+    font-size: 18.772px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+}
+
+
+/* sh--section--list start */
+
+
+
+.sh--profile--list--title {
+    margin: 43px 0 24px 0;
+}
+
+.sh--profile--list--title h4 {
+    color: #313133;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+
+.sh--profile--list--button {
+    background-color: #FFf !important;
+    padding: 21px 10px;
+    width: 100% !important;
+    border: 1.341px solid #E7F0F4 !important;
+    color: #262627 !important;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-style: normal;
+}
+
+.sh--profile--list--button.active {
+    border-bottom: 1.341px solid #E7F0F4 !important;
+    background: #E7F0F4 !important;
+}
+
+.sh--profile--list--button--title {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.sh--profile--list--button--title p {
+    margin-left: 21px;
+    color: #2D2F34;
+}
+
+.sh--profile--list--Online--a {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 1.341px solid #E7F0F4;
+    background: #fff;
+    padding: 21px 10px;
+    color: #262627;
+}
+
+/* logout button */
+
+.sh--profile--list--logout {
+    margin: 42px 0;
+}
+
+.sh--profile--list--logout--button {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 21px 10px;
+    background: #fff;
+    border: 1.341px solid #BEBEC6;
+    border-radius: 5.996px;
+}
+
+.sh--profile--list--logout--button:hover {
+    border: 1.341px solid #D4351C;
+}
+
+.sh--profile--list--logout--button span {
+    color: #D4351C;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sh--profile--list--logout--button--icon {
+    margin-right: 21px;
+}
+
+
+/* sh--section--list end */
+
+
+
+/* sh--profile--body--left--end */
+
+
+
+/* sh--profile--body--right--start */
+
+
+/* company start */
+
+.sh--profile--body--right {
+    width: 70%;
+}
+
+.sh--profile--header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.sh--profile--company--body--title {
+    margin-bottom: 32px;
+}
+
+.sh--profile--company--body--title h2 {
+    color: #313133;
+    font-family: "SF Pro Display";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.sh--profile--company--about {
+    margin-bottom: 22px;
+}
+
+.sh--profile--company--about-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.sh--profile--company--about-title h4 {
+    color: #313133;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.sh--profile--company--about--change {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border: none;
+    background: transparent;
+}
+
+.sh--profile--company--about--change span {
+    color: #262627;
+    font-family: "SF Pro Display";
+    font-size: 21.454px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.sh--profile--company--description p {
+    color: #313133;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.sh--profile--company--description button {
+    color: #262627;
+    font-family: "SF Pro Display";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    border: none;
+    background: #fff;
+    padding: 0;
+}
+
+/* Additional styles for the input and save button */
+#descriptionInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "SF Pro Display";
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#saveButton {
+    background-color: #2F80ED;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: "SF Pro Display";
+}
+
+.sh--profile--company--warranty {
+    margin-top: 65px;
+    /* width: 700px; */
+}
+
+.sh--profile--company--warranty--title {
+    margin-bottom: 22px;
+}
+
+.sh--profile--company--warranty--text {
+    display: flex;
+}
+
+.sh--profile--company--warranty--text p {
+    color: #313133;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.sh--profile--company--warranty--text--icon {
+    margin: 2px 8px 0 0;
+}
+
+
+
+.sh--profile--company--warranty--from {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sh--profile--company--warranty--input {
+    position: relative;
+}
+
+.sh--profile--company--warranty--input input {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 16px;
+    width: 18px;
+    height: 18px;
+}
+
+.sh--profile--company--warranty--input label {
+    color: #262627;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5.364px;
+    border: 1.341px solid #DFDFE4;
+    background: #FFF;
+    padding: 10px 16px;
+}
+
+.sh--profile--company--warranty--input input:checked+label {
+    border: 2px solid #2F80ED;
+    background-color: #F4F6FA;
+    color: #2F80ED;
+}
+
+
+/* reviews start */
+
+.sh--profile--reviews--title {
+    margin-bottom: 32px;
+}
+
+.sh--profile--reviews--title h2 {
+    color: #313133;
+    font-family: "SF Pro Display";
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
+
+.sh--profile--reviews--score {
+    margin-bottom: 80px;
+}
+
+
+.sh--profile--reviews--score--title {
+    margin-bottom: 22px;
+}
+
+.sh--profile--reviews--score--title h4 {
+    color: #313133;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.sh--profile--reviews--score--star--body {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.sh--profile--reviews--score--text {
+    margin-right: 14px;
+}
+
+.sh--profile--reviews--score--text h2 {
+    color: #313133;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sh--profile--reviews--star {
+    width: 150px;
+    height: 150px;
+}
+
+.sh--profile--reviews--score--star--button button {
+    padding: 19px 23px;
+    border-radius: 5.996px;
+    background: #2F80ED;
+    border: 2px solid transparent;
+    color: var(--3, #FFF);
+    font-size: 19.188px;
+    font-family: "SF Pro Display";
+    font-weight: 500;
+}
+
+
+
+
+
+.sh--profile--reviews--col {
+    border-radius: 11.992px;
+    border: 1.199px solid #EAE9F2;
+    background: #FFF;
+    padding: 24px 16px;
+}
+
+
+.sh--profile--reviews--card--header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.sh--profile--reviews--card--header--img {
+    margin-right: 11px;
+}
+
+.sh--profile--reviews--card--body--text p {
+    color: #2F3D40;
+    font-family: "SF Pro Display";
+    font-size: 19.188px;
+    font-weight: 400;
+}
+
+
+.sh--profile--reviews--button--view {
+    margin-top: 24px;
+}
+
+.sh--profile--reviews--button--view button {
+    color: #FFF;
+    text-align: right;
+    border: none;
+    font-size: 19.188px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 12px 23px;
+    border-radius: 5.996px;
+    background: #2F80ED;
+}
+
+
+
+/* portfolio  start*/
+
+
+
+
+.sh--profile--portfolio--title {
+
+    margin-bottom: 80px;
+}
+
+.sh--profile--portfolio--title h2 {
+    color: #313133;
+    font-family: "SF Pro Display";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+
+.sh--profile--portfolio--cards--row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    margin-bottom: 24px;
+}
+
+.sh--profile--portfolio--card--col {
+    width: 263.987px;
+}
+
+.sh--profile--portfolio--card {
+    border-radius: 8.868px;
+    border: 0.887px solid #EAE9F2;
+    background: #FFF;
+    padding: 17px 12px;
+}
+
+
+.sh--profile--portfolio--card--header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 19px;
+}
+
+.sh--profile--portfolio--card--img {
+    width: 36.359px;
+    height: 36.359px;
+    margin-right: 8px;
+}
+
+.sh--profile--portfolio--card--img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.sh--profile--portfolio--card--title h4 {
+    color: #0F172A;
+    font-family: "SF Pro Display";
+    font-size: 14.189px;
+    font-weight: 500;
+}
+
+.sh--profile--portfolio--card--body {
+    width: 238.848px;
+    height: 145.003px;
+    margin-bottom: 19px;
+}
+
+.sh--profile--portfolio--card--body img {
+    width: 100%;
+    height: 100%;
+}
+
+.sh--profile--portfolio--card--details p {
+    color: #2F3D40;
+    font-family: "SF Pro Display";
+    font-size: 14.189px;
+    font-weight: 400;
+}
+
+
+
+.sh--profile--portfolio--more--btn button {
+    border-radius: 5.996px;
+    background: #2F80ED;
+    color: #FFF;
+    text-align: right;
+    font-family: "SF Pro Display";
+    font-size: 19.188px;
+    font-weight: 500;
+    padding: 19px 23px;
+    border: none;
+}
+
+
+.sh--profile--portfolio--modal--title h4 {
+    color: #313133;
+    font-family: "SF Pro Display";
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.sh--profile--portfolio--body--title h2 {
+
+    color: #313133;
+    font-family: "SF Pro Display";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+/* manage start */
+
+
+.sh--profile--manage--title {
+    margin-bottom: 32px;
+}
+
+.sh--profile--manage--title h2 {
+    color: #313133;
+    font-family: "SF Pro Display";
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.sh--profile--manage--body {
+    margin-bottom: 26px;
+}
+
+
+.sh--profile--manage--body--title {
+    margin-bottom: 26px;
+}
+
+.sh--profile--manage--body--title h4 {
+    color: #313133;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sh--profile--manage--input--password {
+    color: #262627;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5.364px;
+    border: 2px solid #DFDFE4;
+    background: #FFF;
+    padding: 10px 16px;
+}
+
+
+.sh--profile--manage--form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sh--profile--manage--input {
+    position: relative;
+}
+
+.sh--profile--manage--input .sh--profile--manage--radio {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 16px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+
+.sh--profile--manage--input label {
+    color: #262627;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5.364px;
+    border: 2px solid #DFDFE4;
+    background: #FFF;
+    padding: 10px 16px;
+}
+
+
+
+.sh--profile--manage--input input:checked+label {
+    border-radius: 5.364px;
+    border: 2px solid #FF4842;
+    background: #FFF;
+    color: #FF4842;
+}
+
+.sh--profile--manage--input .sh--profile--manage--radio:checked::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #FF4842;
+}
+
+
+
+.sh--profile--manage--button button {
+    color: #FFF;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 19.188px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5.996px;
+    background: #2F80ED;
+    padding: 12px 23px;
+}
+
+
+/* saved start */
+
+.sh--profile--saved--card--header {
+    margin-bottom: 19px;
+}
+
+.sh--profile--saved--card--body {
+    margin-bottom: 19px;
+}
+
+
+.sh--profile--saved--card--body--title {
+    margin-bottom: 4px;
+}
+
+.sh--profile--saved--card--body--title h5 {
+    color: #0F172A;
+    font-family: "SF Pro Display";
+    font-size: 14.189px;
+    font-weight: 500;
+}
+
+.sh--profile--saved--card--body--text p {
+    color: #0F172A;
+    font-family: "SF Pro Display";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+
+}
+
+.sh--profile--saved--card--description p {
+    color: var(--Colors-Blue-900, #2F3D40);
+    font-family: "SF Pro Display";
+    font-size: 14.189px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+/* Area start */
+
+
+.sh--profile--area--from--group {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin-bottom: 54px;
+}
+
+.sh--profile--area--from--group--label {
+    color: #161C24;
+    font-family: "SF Pro Display";
+    font-size: 19.188px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.sh--profile--area--from--group--input {
+    padding: 16px 18px;
+    border-radius: 5.996px;
+    color: #A6A6A6;
+    font-family: "SF Pro Display";
+    font-size: 19.188px;
+    font-weight: 500;
+    border: 1px solid var(--State-Colors-info, #2F80ED);
+    width: 100%;
+}
+
+.sh--profile--area--from--group--select {
+    width: 100%;
+    padding: 8px 0;
+    border: 1px solid var(--State-Colors-info, #2F80ED);
+    border-radius: 5.996px;
+    background-color: #fff;
+}
+
+.sh--profile--area--from--group--select .wide {
+    border: none !important;
+}
+
+
+.sh--profile--area--from--group--range {
+    width: 80%;
+    margin: 0 auto 50px;
+}
+
+
+.sh--profile--area--from--group--map {
+    width: 100%;
+    height: 400px;
+    border-radius: 5.996px;
+    border: 1px solid #DFDFE4;
+    margin-bottom: 26px;
+}
+
+.sh--profile--area--from--group--map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.sh--profile--area--from--group--btn button {
+    color: #FFF;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 19.188px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5.996px;
+    padding: 19px 23px;
+    background: #D9D9D9;
+}
+
+.sh--profile--area--from--group--btn button:last-child {
+    background-color: #007bff;
+    margin-left: 11px;
+}
+
+
+/* profile services start */
+
+.sh--profile--services--form {
+    margin-bottom: 40px;
+}
+
+.sh--profile--services--form-input {
+    margin-bottom: 40px;
+}
+
+.sh--profile--services--form-input input {
+    width: 100%;
+    padding: 18px 16px;
+    border-radius: 8px;
+    border: 1px solid #EDE7F4;
+    color: #313133;
+    font-family: "SF Pro Display";
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sh--profile--services--form--btn button {
+    color: #FFF;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 19.188px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 19px 23px;
+    border-radius: 5.996px;
+    background: #2F80ED;
+    border: none;
+}
+
+.sh--profile--services--add--body {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.sh--profile--services--add--item {
+    border-radius: 8px;
+    border: 1px solid #EDE7F4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+
+.sh--profile--services--add--item--title h5 {
+    color: #313133;
+    font-family: "SF Pro Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.sh--profile--services--add--item--button {
+    border: none;
+    background-color: transparent;
+}
+
+
+/* template start */
+
+
+.sh--profile--template--form {
+    margin-bottom: 100px;
+}
+
+.sh--profile--template--form--group {
+    display: flex;
+    flex-direction: column;
+}
+
+.sh--profile--template--form--label {
+    color: #161C24;
+    font-family: "SF Pro Display";
+    font-size: 19.188px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.sh--profile--template--form--input {
+    border-radius: 5.996px;
+    border: 1px solid var(--State-Colors-info, #2F80ED);
+    padding: 16px 18px;
+    margin-bottom: 24px;
+}
+
+
+.sh--profile--template--form--textarea {
+    border-radius: 5.996px;
+    border: 1px solid var(--State-Colors-info, #2F80ED);
+    height: 214px;
+    margin-bottom: 11px;
+}
+
+
+.sh--profile--template--form--text {
+    color: #161C24;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.sh--profile--template--form--button {
+    color: #FFF;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 19.188px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 19px 23px;
+    border-radius: 5.996px;
+    background: #D9D9D9;
+    border: none;
+}
+
+
+.sh--profile--template--form--button:last-child {
+    background-color: #007bff;
+    margin-left: 11px;
+}
+
+
+
+.sh--profile--template--message--text {
+
+    margin-bottom: 30px;
+}
+
+.sh--profile--template--message--text p {
+    color: #161C24;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.sh--profile--template--message--list--subTitle {
+    color: #161C24;
+    font-family: "SF Pro Display";
+    font-size: 19.188px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 11px;
+}
+
+
+.sh--profile--template--message--list--card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5.996px;
+    border: 1px solid #2F80ED;
+    padding: 16px;
+    margin-bottom: 5px;
+}
+
+
+.sh--profile--template--message--list--card--title {
+    margin-bottom: 14px;
+}
+
+.sh--profile--template--message--list--card--title h4 {
+    color: #2D2F34;
+    font-family: "SF Pro Display";
+    font-size: 19.188px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.782px;
+    opacity: 0.7;
+}
+
+.sh--profile--template--message--list--card--description {
+    color: #A6A6A6;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.sh--profile--template--message--list--right button {
+    border: none;
+    background-color: transparent;
+}
+
+
+
+
+
+
+/* nitifications start */
+
+.sh--profile--notifications--description p {
+    color: var(--Blue-Grey-900, #161C24);
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+
+.sh--profile--notifications--list--row {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.sh--profile--notifications--list--title h4 {
+    color: #161C24;
+    font-family: "SF Pro Display";
+    font-size: 19.188px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 11px;
+}
+
+
+.sh--profile--notifications--list--body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5.996px;
+    border: 1px solid #2F80ED;
+    padding: 16px;
+}
+
+.sh--profile--notifications--list--body--left--description {
+    margin-bottom: 14px;
+}
+
+.sh--profile--notifications--list--body--left--description p {
+    color: #262627;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+
+.sh--profile--notifications--list--body--left--title h5 {
+    color: #2D2F34;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+
+.sh--notifications--input.form-check-input {
+    width: 77.155px;
+    height: 40px;
+}
+
+
+
+/* Balance start */
+
+
+.sh--profile--balance--card {
+    border-radius: 8.868px;
+    border: 0.887px solid #EAE9F2;
+    background: #FFF;
+    padding: 24px;
+    margin-bottom: 100px;
+}
+
+.sh--profile--balance--card--header {
+    margin-bottom: 32px;
+}
+
+.sh--profile--balance--card--body {
+    /* margin-bottom: 100px; */
+}
+
+.sh--profile--balance--card--title {
+    margin-bottom: 24px;
+}
+
+.sh--profile--balance--card--title h4 {
+    color: #2F80ED;
+    font-family: "SF Pro Display";
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sh--profile--balance--card--info h5 {
+    color: var(--blue-gray-900, #0F172A);
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 11px;
+}
+
+.sh--profile--balance--card--info h5 span {
+    color: var(--blue-gray-900, #0F172A);
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.sh--profile--balance--card--info p {
+    color: var(--blue-gray-900, #0F172A);
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.sh--profile--balance--card--not--found {
+    margin-top: 40px;
+}
+
+.sh--profile--balance--card--not--found p {
+    color: var(--blue-gray-900, #0F172A);
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+.sh--profile--balance--package--card {
+    padding: 24px;
+    border-radius: 8.868px;
+    border: 0.887px solid #EAE9F2;
+    background: #FFF;
+
+}
+
+.sh--profile--balance--package--card--header {
+    margin-bottom: 24px;
+}
+
+.sh--profile--balance--package--card--title {
+    margin-bottom: 24px;
+}
+
+.sh--profile--balance--package--card--title h4 {
+    color: #2F80ED;
+    font-family: "SF Pro Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;/
+}
+
+.sh--profile--balance--package--card--subtitle p {
+    color: #0F172A;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.sh--profile--balance--package--card--text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.sh--profile--balance--package--card--text p {
+    margin-left: 10px;
+    color: #454F5B;
+    font-family: "SF Pro Display";
+    font-size: 17.939px;
+    font-weight: 400;
+}
+
+/* sh--profile--body--right--end */
+
+/* profile section emd */
+
+
+
+/* registration  section start */
+
+.sh--registration--section {
+    background: #F8F8F8;
+}
+
+.sh--registration--progress {
+    margin-bottom: 128px;
+}
+
+.sh--registration--progress--title h4 {
+    color: #222;
+    font-family: "SF Pro Display";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 27px;
+}
+
+.sh--registration--progress--bar {
+    width: 0%;
+    height: 8.65px;
+    background: #2F80ED;
+    border-radius: 8px;
+    transition: width 0.3s ease-in-out;
+}
+
+.sh--registration--progress--bar--body {
+    border-radius: 8px;
+    background: #D9D9D9;
+}
+
+.sh--registration--main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.sh--registration--col {
+    display: none;
+}
+
+.sh--registration--col.active {
+    display: block;
+}
+
+
+.sh--registration--header {
+    margin-bottom: 24px;
+}
+
+.sh--registration--header h3 {
+    color: #222;
+    font-family: "SF Pro Display";
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+.sh--registration--header p {
+    color: #A6A6A6;
+    font-family: "SF Pro Display";
+    font-size: 19.188px;
+    font-weight: 500;
+}
+
+.sh--registration--header--title {
+    margin-bottom: 10;
+}
+
+.sh--registration--header--title h4 {
+    color: #222;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.sh--registration--header--subtitle p {
+    color: #777;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sh--registration--header--subtitle p span {
+    color: #2F80ED;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #E6F2FF;
+    padding: 5px 16px;
+    margin-right: 24px;
+}
+
+
+.sh--registration--form--body {
+    width: 50%;
+}
+
+
+.sh--registration--form--group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+
+.sh--registration--form--label {
+    color: #161C24;
+    font-family: "SF Pro Display";
+    font-size: 19.188px;
+    font-weight: 500;
+}
+
+.sh--registration--form--input {
+    border-radius: 5.996px;
+    border: 1px solid var(--State-Colors-info, #2F80ED);
+    padding: 18px 16px;
+    margin-top: 11px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100% !important;
+}
+
+
+.sh--registration--form--checkbox {
+    margin-bottom: 24px;
+}
+
+.sh--registration--btn button {
+    padding: 19.188px 23.985px;
+    border-radius: 5.996px;
+    color: #FFF;
+    font-family: SF Pro Display;
+    font-size: 19.188px;
+    font-weight: 500;
+    border: none;
+}
+
+.sh--registration--next--btn {
+    background: #2F80ED;
+    padding: 19.188px 23.985px;
+    border-radius: 5.996px;
+    color: #FFF;
+    font-family: SF Pro Display;
+    font-size: 19.188px;
+    font-weight: 500;
+    border: none;
+}
+
+.sh--registration--previous--btn {
+    background: #9B9B9B;
+    margin-right: 11px;
+}
+
+
+
+.sh--registration--body--content {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+.sh--registration--form--map {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 16px;
+}
+
+.sh--registration--form--map--iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.sh--registration--form--input--range {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.sh--registration--form--checkbox--body {
+    margin-bottom: 50px;
+    display: flex;
+    gap: 11px;
+    flex-direction: column;
+}
+
+.sh--registration--form--checkbox--item {
+    position: relative;
+
+}
+
+.sh--registration--form--checkbox--label {
+    border-radius: 6px;
+    padding: 16px 18px 16px 60px;
+    border: 1px solid #2F80ED;
+    font-size: 16px;
+    color: #333;
+    width: 100%;
+
+}
+
+.sh--registration--form--checkbox--input {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.sh--registration--form--input--group {
+    position: relative;
+    margin-bottom: 11px;
+}
+
+.sh--registration--form--input--identity {
+    margin: 0;
+    padding-left: 50px;
+    border-radius: 5.996px !important;
+    border: 1px solid #2F80ED;
+}
+
+.sh--registration--form--input--svg {
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    transform: translateY(-50%);
+}
+
+.sh--registration--form--a a {
+    color: #2F80ED;
+    font-family: "SF Pro Display";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sh--registration--form--document p {
+    color: #777;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 52px;
+}
+
+/* Upload Passport img */
+
+.upload-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 400px;
+    background-color: #e9e9e9;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+}
+
+.upload-container:hover {
+    background-color: #f0f0f0;
+}
+
+.upload-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.upload-container .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    font-size: 36px;
+}
+
+.upload-container input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+
+
+/* registration  section end */
+
+
+/* add--billing--information start*/
+.sh--billing--information {
+    padding: 100px 0;
+    background: #F8F8F8;
+}
+
+
+.sh--billing--information--header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.sh--billing--information--title {
+    width: 100%;
+}
+
+.sh--billing--information--title h2 {
+    text-align: center;
+}
+
+
+
+
+.sh--billing--information--body {
+    border-radius: 8px;
+    border: 1px solid #2F80ED;
+    background: #FFF;
+    padding: 40px 24px;
+}
+
+
+.sh--billing--information--form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.sh--billing--information--input--wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+
+
+.sh--billing--information--input--body {
+    position: relative;
+}
+
+
+
+.sh--billing--information--label {
+    color: #2D2F34;
+    font-family: "SF Pro Display";
+    font-size: 19.188px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.sh--billing--information--input {
+    padding: 16px;
+    color: #A6A6A6;
+    font-family: "SF Pro Display";
+    font-size: 19.188px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 5.996px;
+    border: 1px solid #2F80ED;
+    width: 100%;
+}
+
+.sh--billing--information--input--card {
+    padding: 16px 16px 16px 60px;
+    color: #A6A6A6;
+    font-family: "SF Pro Display";
+    font-size: 19.188px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 5.996px;
+    border: 1px solid #2F80ED;
+    width: 100%;
+}
+
+.sh--billing--information--card--icon {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+}
+
+
+.sh--billing--information--card--securely {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
+    color: #A6A6A6;
+    font-family: "SF Pro Display";
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.sh--billing--information--input--name {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.sh--billing--information--input--expires {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.sh--billing--information--input--select--body {
+    padding: 9px 0;
+    color: #A6A6A6;
+    font-family: "SF Pro Display";
+    font-size: 19.188px;
+    font-weight: 500;
+    border-radius: 5.996px;
+    border: 1px solid #2F80ED;
+    width: 100%;
+}
+
+.sh--billing--information--select {
+    border: none !important;
+    outline: none !important;
+    color: #A6A6A6;
+    font-family: "SF Pro Display";
+    font-size: 19.188px;
+    font-weight: 500;
+}
+
+.sh--billing--information--input--address {
+    margin-bottom: 16px;
+}
+
+
+.sh--billing--information--input--button {
+    text-align: center;
+    margin-top: 48px;
+}
+
+.sh--billing--information--button--submit {
+    padding: 19.188px 23.985px;
+    border-radius: 5.996px;
+    background: #2F80ED;
+    color: #FFF;
+    font-family: "SF Pro Display";
+    font-size: 19.188px;
+    font-weight: 500;
+    border: none;
+}
+
+/* add--billing--information end*/
+
+
+/* billing--information start*/
+
+
+.sh--billing--information--card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 80px;
+}
+
+
+.sh--billing--information--card--title {
+    margin-bottom: 11px;
+}
+
+.sh--billing--information--card--title h3 {
+    color: #2F3D40;
+    font-family: "Plus Jakarta Sans";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.sh--billing--information--card--body h5 {
+    color: #2F3D40;
+    font-family: "Plus Jakarta Sans";
+    font-size: 21.586px;
+    font-weight: 700;
+    margin-bottom: 11px;
+}
+
+.sh--billing--information--card--body h5 span {
+    font-family: "Plus Jakarta Sans";
+    font-weight: 500;
+}
+
+/* billing--information end*/
+
+
+/* billing--information-completed start*/
+
+.sh--billing--information--completed--body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.sh--billing--information--completed--title {
+    margin-bottom: 48px;
+}
+
+.sh--billing--information--completed--title h2 {
+    color: #2F80ED;
+    text-align: center;
+    font-family: "SF Pro Display";
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.sh--billing--information--completed--description p {
+    color: #777;
+    text-align: center;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* billing--information-completed end*/
+.sh--registration--form--textarea {
+    height: 200px;
+    border-radius: 5.996px;
+    border: 1px solid var(--State-Colors-info, #2F80ED);
+    margin-top: 24px;
+}
+
+.sh--registration--form--file {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sh--registration--form--file--input {
+    /* display: ; */
+}
+
+.sh--registration--form--file--icon {
+    margin-right: 10px;
+}
+
+.sh--login--section {
+    padding: 100px 0;
+    background: #F8F8F8;
+}
+
+.sh--login--section--main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sh--login--section--title {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.sh--login--section--title h4 {
+    color: var(--Colors-Blue-900, #2F3D40);
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71.955px;
+}
+
+.sh--login--section--title h2 {
+    color: var(--Colors-Blue-900, #2F3D40);
+    font-family: "Plus Jakarta Sans";
+    font-size: 57.564px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71.955px;
+}
+
+
+
+.sh--login--section--form {
+    width: 60%;
+    padding: 100px;
+    background-color: #fff;
+}
+
+.sh--login--btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 48px;
+}
+
+.sh--login--btn button {
+    border-radius: 5.996px;
+    padding: 19.188px 23.985px;
+    color: var(--3, #FFF);
+    font-family: "SF Pro Display";
+    font-size: 19.188px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.782px;
+    border: 1px solid var(--Primary-300, #037FFF);
+    width: 50%;
+}
+
+
+.sh--login--btn--submit {
+    background: var(--State-Colors-info, #2F80ED);
+    text-align: center;
+}
+
+.sh--login--btn--google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    background: #FFF;
+}
+
+.sh--login--btn--google span {
+    margin-left: 15px;
+    color: var(--Primary-300, #037FFF);
+}
